@@ -1,0 +1,28 @@
+[HUSQVARNA_API]
+auth_url      = https://api.authentication.husqvarnagroup.dev/v1/oauth2/token
+base_url      = https://api.amc.husqvarna.dev/v1
+client_id     = <your client id>
+client_secret = <your client secret>
+
+[MOWER]
+mower_id      = <your mower id>
+
+[EMAIL]
+use_mail = 0
+from     = Mower Weather <mower_weather@example.com>
+to       = <your email>
+
+[SMTP]
+server   = <smtp-server>
+user     = <smtp-user>
+password = <smtp-password>
+
+[DWD]
+url         = https://www.dwd.de/DWD/warnungen/warnapp/json/warnings.json
+events_file = DWD_events.txt
+cell_ids    = 105978000;Kreis Unna,805978004;Stadt Bergkamen
+park_events = DAUERREGEN,GEWITTER,STURM,STARKWIND,HAGEL,ORKAN,EXTREME HITZE
+
+[MISC]
+statusfile = park_dt.txt
+logfile    = mower_weather.log

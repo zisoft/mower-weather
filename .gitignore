@@ -1,0 +1,5 @@
+*.ini
+*.json
+*.log
+park_dt.txt
+t.*
