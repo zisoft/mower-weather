@@ -6,6 +6,10 @@ Der Deutsche Wetterdienst (DWD) bietet eine Schnittstelle an, die kostenlos abge
 
 Diese Python-Scripte fragen die aktuellen Warnungen des Deutschen Wetterdienstes ab und parken ggf. den Mähroboter bis zum Ende des Warnungs-Zeitraums.
 
+- Konfigurierbare Ereignisse, die zum Parken führen (Gewitter, Starkregen, Sturm, Hitze, ...)
+- Park-Befehl bis zum gemeldeten Ende-Zeitpunkt des Ereignisses
+- Auf Wunsch Email-Versand bei Eintreten eines Park-Ereignisses
+
 ## Voraussetzungen
 Ein Husqvarna AutoMower mit WLAN-Verbindung.
 
