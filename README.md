@@ -24,4 +24,4 @@ Zur Verwendung dieser Scripte eignet sich ein kleiner Server, der mit dem heimis
 Auf Wunsch kann das Script eine Email verschicken, wenn eine Wetterwarnung zum Parken des AutoMowers geführt hat. Dazu in der `mower_weather.ini` in der Sektion `[EMAIL]` den Eintrag `use_email` auf `1` setzen und unter `[SMTP]` die Daten des SMTP-Servers eintragen. Mit dem Script `email_test.py` kann getestet werden, ob der Email-Versand funktioniert.
 
 ### crontab
-Wenn alles korrekt eingerichtet ist, sollte das Script regelmäßig (z.B. alle 30min) in den Stunden des AutoMower-Zeitplans laufen, z.B. über einen Eintrag in der crontab.
+Wenn alles korrekt eingerichtet ist, sollte das Script `mower_weather.py` regelmäßig (z.B. alle 30min) in den Stunden des AutoMower-Zeitplans laufen, z.B. über einen Eintrag in der crontab.
