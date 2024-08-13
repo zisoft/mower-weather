@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # ---------------------------------------------------------------------------
-# Mähroboter Infos ermittlen
+# Mähroboter Infos ermitteln
 #
 # Mario Zimmermann <mail@zisoft.de>
 # 2024-06-03
